@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "django-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "django_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "4.1"
+django-compressor = "4.3"
+django-haystack = "3.2.1"
+django-ipware = "4.0.2"
+django-mdeditor = "0.1.20"
+django-uuslug = "2.0.0"
+mycli = "1.26.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
